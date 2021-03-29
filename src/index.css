@@ -1,0 +1,45 @@
+h2 {
+  text-align: center;
+}
+textarea {
+  font-size: xx-large;
+  display: block;
+  margin: auto;
+  width: 90%;
+  height: 300px;
+}
+.keyboardAll {
+  margin: auto;
+  width: 90%;
+  height: 300px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-areas:
+    "1 2 3 4 5 6 7 8 9 0 bs bs"
+    "q w e r t y u i o p en en"
+    "a s d f g h j k l cl cl cl"
+    "z x c v b n m dsh ldsh sh sh sh"
+    "sp sp sp sp sp sp sp sp sp ok ok ok";
+}
+button {
+  background: black;
+  color: white;
+}
+.backSpace {
+  grid-area: bs;
+}
+.enter {
+  grid-area: en;
+}
+.capsLock {
+  grid-area: cl;
+}
+.shift {
+  grid-area: sh;
+}
+.ok {
+  grid-area: ok;
+}
+.space {
+  grid-area: sp;
+}
